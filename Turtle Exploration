@@ -1,0 +1,21 @@
+import turtle
+greg = turtle.Turtle()
+
+#square
+greg.forward(100)
+greg.right(90)
+greg.forward(100)
+greg.right(90)
+greg.forward(100)
+greg.right(90)
+greg.forward(100)
+#go to
+greg.penup()
+greg.goto(-100,100)
+#triangle
+greg.pendown()
+greg.forward(100)
+greg.right(120)
+greg.forward(100)
+greg.right(120)
+greg.forward(100)
